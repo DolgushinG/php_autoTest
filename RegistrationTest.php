@@ -10,7 +10,7 @@ class RegistrationTest extends DuskTestCase
     public function testBasicExample()
     {
         $generateEmail = Str::random(10).'@yopmail.com';
-        $this->browse(function ($browser) use ($randomData) {
+        $this->browse(function ($browser) use ($generateEmail) {
             $browser
                 ->visit('/register')
                 ->waitFor('.input-name')
