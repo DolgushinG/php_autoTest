@@ -8,7 +8,7 @@ use Tests\DuskTestCase;
 
 class SendResponseConOfferTest extends DuskTestCase
 {
-    public function testBasicExample()
+    public function testSendResponseConOfferTest()
     {
 
         $this->browse(function ($browser) {
