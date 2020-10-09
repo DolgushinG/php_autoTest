@@ -10,7 +10,7 @@ use Illuminate\Support\Str;
 
 class AddNewWalletTest extends DuskTestCase
 {
-    public function testBasicExample()
+    public function testAddNewWalletTest()
     {
 
         $array = [1, 2, 3, 4, 5];
