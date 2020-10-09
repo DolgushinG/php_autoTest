@@ -7,7 +7,7 @@ use Illuminate\Support\Str;
 
 class RegistrationTest extends DuskTestCase
 {
-    public function testBasicExample()
+    public function testRegistration()
     {
         $generateEmail = Str::random(10).'@yopmail.com';
         $this->browse(function ($browser) use ($generateEmail) {
